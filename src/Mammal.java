@@ -13,7 +13,7 @@ abstract public class Mammal extends Animal{
 
     @Override
     public String show() {
-        return getName() + ", age:" + getAge() + ", speed: " +
+        return name + ", age:" + getAge() + ", speed: " +
                 getSpeed() + ", " + getDesc();
     }
 }

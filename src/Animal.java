@@ -1,6 +1,6 @@
 abstract public class Animal {
 
-    private String name;
+    protected String name;
     private int age;
     private String desc;
 
@@ -8,10 +8,6 @@ abstract public class Animal {
         this.name = name;
         this.age = age;
         this.desc = desc;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public int getAge() {
