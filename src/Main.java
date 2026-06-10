@@ -26,6 +26,7 @@ public class Main {
         animals.add(parrot2);
         animals.add(girafe2);
 
+        System.out.println();
         for (Animal animal : animals) System.out.println(animal.show());
 
         System.out.println();
