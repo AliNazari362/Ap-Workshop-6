@@ -6,6 +6,6 @@ public class Main {
         ArrayList<Animal> animals = new ArrayList<>();
 
         for (Animal animal : animals)
-            animal.show();
+            System.out.println(animal.show());
     }
 }

@@ -13,7 +13,7 @@ abstract public class Bird extends Animal {
 
     @Override
     public String show() {
-        return getName() + ", age:" + getAge() + ", height of fly: " +
+        return name + ", age:" + getAge() + ", height of fly: " +
                 getHeight() + ", " + getDesc();
     }
 }

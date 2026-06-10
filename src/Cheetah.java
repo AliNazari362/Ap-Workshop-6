@@ -4,4 +4,8 @@ public class Cheetah extends Mammal implements Hunter {
         super(name, age, desc, speed);
     }
 
+    @Override
+    public String hunt(Prey prey) {
+        return name + " hunted " + prey.getName();
+    }
 }
